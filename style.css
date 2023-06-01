@@ -1,0 +1,147 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    font-family: Arial, Helvetica, sans-serif;
+    /* height: 100vh; */
+}
+.container{
+    width: 100%;
+    height: 100vh;
+    background: linear-gradient(rgb(40, 43, 255) , rgb(208, 114, 255));
+}
+.menu ul{
+    display: inline-flex;
+    margin: 0px 20px;
+    /* justify-content: center; */
+    /* text-align: center; */
+}
+.menu ul li{
+    cursor: pointer;
+    text-decoration: none;
+    list-style: none;
+    margin:35px 30px;
+    color: white;
+    font-size: 1.3rem;
+    font-weight: bold;
+}
+.nav{
+    transition: 0.5s;
+}
+.nav:hover {
+    color: rgb(255, 114, 234);
+}
+.menu ul li img{
+    width: 120px;
+    margin-top: -18px;
+}
+/* .nav{
+    margin-top: 100px;
+} */
+#active{
+    color: rgb(255, 114, 234);
+}
+.sign{
+    position: absolute;
+    text-decoration: none;
+    right: 100px;
+    color: white; 
+    border: 2.3px solid rgb(255, 114, 234);
+    border-radius: 20px;
+    transition: 0.5s;
+}
+.sign:hover{
+    background-color: rgb(255, 114, 234);
+    /* border: 0px solid black; */
+}
+.sign span{
+    display:block ;
+    font-weight: bold;
+    padding-left: 15px;
+    padding-right: 15px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+}
+.banner{
+    width: 50%;
+    top: 30%;
+    height: 50%;
+    left: 100px;
+    position: absolute;
+    color: white;
+}
+.heading{
+    font-size: 3.2rem;
+    width: 680px;
+}
+.paragraph{
+    font-size: 1.1rem;
+    margin-top: 40px;
+    line-height: 25px;
+    width: 600px;
+    color: rgb(217, 217, 217) ;
+}
+.img{
+    display: inline-block;
+    right: -500px;
+    top: -50px;
+    position: absolute;
+}
+.btn{
+    margin-top: 30px;
+    margin-left: 200px;
+    position: absolute;
+    /* font-size: 2.0rem; */
+
+}
+.btn button{
+    font-size: 1.3rem;
+    border: 3px solid rgb(40, 43, 255);
+    /* padding: 20px; */
+    padding-left: 20px;
+    padding-right: 20px;
+    padding-top: 15px;
+    padding-bottom: 15px;
+    /* background-color: transparent; */
+    background-image: linear-gradient(rgba(40, 43, 255,0.3) ,rgba(40, 43, 255,0.8));
+    color: white;
+    font-weight: bold;
+    border-radius: 40px;
+    transition: 1s;
+}
+.btn button:hover{
+    /* background: white; */
+    border: 3px solid rgb(40, 43, 255);
+    /* background-image: linear-gradient(rgb(40, 43, 255) , rgb(208, 114, 255)); */
+    background-color: rgb(255, 114, 234);
+}
+.btn span{
+    position: relative;
+    font-size: 2rem;
+    top: -10px;
+    /* height: 200px; */
+}
+.social{
+    /* bottom: -50px; */
+    /* width: 200px; */
+    position: absolute;
+    /* top: 100%; */
+    /* left: 150%; */
+    bottom: -100px;
+    right: -80%;
+    /* float: left; */
+}
+.social img{
+    display: inline-block;
+    width: 30px;
+    margin-left: 15px;
+    margin-right: 15px;
+    opacity: 0.8;
+    transition: 0.5s;
+    filter: invert(0%);
+  -webkit-filter: invert(0%);
+  
+}
+.social img:hover{
+    opacity: 1;
+    filter: invert(100%);
+}
